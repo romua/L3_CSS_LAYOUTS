@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myFugueFont;
+    src: url(fugue_regular.woff) format("woff");
+}
+@font-face {
+    font-family: myFontCache;
+    src: url(font-cache.woff) format("woff");
+}
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 220px;
+	background: radial-gradient(ellipse at left, rgb(207,179,173)  30%, rgb(161,231,239) 100%);
+}
+header h2 {
+	top: 39px;
+	right: 50px;
+	position: fixed;
+	font-family: myFugueFont;
+	font-size: 3.1em;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	padding-top: 90px;
+	padding-right: 70px;
+	font-weight: bold;
+	text-align: right;
+	
+}
+
+ul {
+	
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 76% 1fr 1fr 1fr 1fr;
+	list-style-type: none;
+	padding-bottom: 1000px;
+}
+
+
+ul * {
+	
+}
+li {
+	font-family: myFontCache;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+img {
+	position:  fixed;
+	top: 39px;
+	left: 50px;
+	height: 231px;
+	width: auto;
+	z-index: 200;
+
+}
