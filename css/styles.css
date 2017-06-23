@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	padding: 0;
 	max-width: 1366px;
+	min-width: 1365px;
 }
 header {
 	margin: 0;
